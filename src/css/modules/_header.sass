@@ -1,0 +1,38 @@
+.header
+  position: relative
+  background-color: $brown
+  color: $white
+
+
+.header__container
+  position: relative
+  height: 3em
+  overflow: hidden
+
+
+.header__logo
+  position: absolute
+  top: 0
+  left: 0
+  right: 0
+  overflow: hidden
+
+
+.header__toggle
+  position: absolute
+  top: 0
+  right: 0
+
+  a
+    display: inline-block
+    font-size: 1em
+    padding: 1em
+    background-color: $green
+    color: $white
+    line-height: 1
+    border-bottom-left-radius: 0.5em
+    text-transform: uppercase
+    transition: background-color 0.2s 
+
+    &:hover
+      background-color: $green-alt
