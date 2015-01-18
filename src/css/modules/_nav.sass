@@ -1,1 +1,67 @@
 .nav
+  margin: 0
+  padding: 0
+  list-style: none
+
+  +bp($bp-papa-bear)
+    height: 2em
+
+
+// List Items
+// =====================================
+
+.nav__item
+  margin: 0
+  padding: 0
+
+  +bp($bp-papa-bear)
+    position: absolute
+    display: inline-block
+    width: 15%
+
+
+// List Item Modifiers
+// =====================================
+
+.nav__item--services
+  @extend .nav__item
+  left: 0
+
+.nav__item--portfolio
+  @extend .nav__item
+  left: 15%
+
+.nav__item--tips
+  @extend .nav__item
+  right: 15%
+
+.nav__item--about
+  @extend .nav__item
+  right: 0
+
+
+// Links
+// =====================================
+
+.nav__link,
+a.nav__link
+  display: block
+  padding: 0.5em
+  border-bottom: 1px dotted $white-alt
+
+  &:hover
+    background: rgba(255,255,255,0.1)
+
+  +bp($bp-papa-bear)
+    text-transform: uppercase
+    text-align: center
+    letter-spacing: 1px
+    border-top: 1px dotted $white-alt
+    color: $green-alt
+    transition: all 0.2s
+
+    &:hover
+      color: $white
+
+
+

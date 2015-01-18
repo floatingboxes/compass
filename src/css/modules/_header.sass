@@ -1,22 +1,45 @@
 .header
+  +center($bp-papa-bear)
   position: relative
-  background-color: $brown
-  color: $white
+  color: $white-alt
 
+  background-color: $brown
+
+  a,
+  a:active,
+  a:visited,
+  a:hover
+    color: $white
+
+  a:hover
+    color: $green-alt
+
+  +bp($bp-papa-bear)
+    background-image: url('/images/logo--big.png') //280x261@1x
+    background-repeat: no-repeat
+    background-position: center -90px 
+    background-size: 280px 261px
+
+
+// Logo/Toggle Container
+// =====================================
 
 .header__container
   position: relative
-  height: 3em
-  overflow: hidden
 
+// Logo
+// =====================================
 
 .header__logo
-  position: absolute
-  top: 0
-  left: 0
-  right: 0
-  overflow: hidden
+  img
+    display: block
 
+  +bp($bp-papa-bear)
+    display: none
+
+
+// Menu Button
+// =====================================
 
 .header__toggle
   position: absolute
@@ -36,3 +59,56 @@
 
     &:hover
       background-color: $green-alt
+
+  +bp($bp-papa-bear)
+    display: none
+
+
+// Nav
+// =====================================
+
+.header__nav
+  +bp($bp-papa-bear)
+    margin-top: 5em
+    margin-bottom: 2.5em
+
+
+
+
+// Contact and Phone Buttons
+// =====================================
+
+.header__contact a,
+.header__phone a
+  display: block
+  padding: 0.5em
+  border-bottom: 1px dotted $white-alt
+  transition: all 0.2s
+
+  +bp($bp-papa-bear)
+    display: inline-block
+    position: absolute
+    top: 0
+    padding: 0.5em 1em
+    background: $green
+    border-bottom: none
+    border-bottom-left-radius: 0.5em
+    border-bottom-right-radius: 0.5em
+
+    &:hover
+      color: $white
+      background: $green-alt
+
+.header__contact a
+  +bp($bp-papa-bear)
+    right: 0
+
+.header__phone a
+  border-bottom: none
+  span
+    color: $white-alt
+
+  &:hover span
+    color: $white-alt
+
+
