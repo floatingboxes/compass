@@ -34,13 +34,25 @@
 // Logo
 // =====================================
 
-.header__logo
-  img
-    display: block
 
+.header__logo-image
   +bp($bp-mama-bear)
     display: none
 
+.header__logo-link
+  +bp($bp-mama-bear)
+    display: block
+    position: absolute
+    top: 0
+    left: 0
+    right: 0
+    margin: auto
+    width: 221px
+    height: 6em
+
+  +bp($bp-papa-bear)
+    width: 280px
+    height: 9em
 
 // Menu Button
 // =====================================
