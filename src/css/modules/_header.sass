@@ -1,5 +1,5 @@
 .header
-  +center($bp-papa-bear)
+  +center(1000px)
   position: relative
   color: $white-alt
 
@@ -14,9 +14,13 @@
   a:hover
     color: $green-alt
 
-  +bp($bp-papa-bear)
+  +bp($bp-mama-bear)
     background-image: url('/images/logo--big.png') //280x261@1x
     background-repeat: no-repeat
+    background-position: center -100px 
+    background-size: 221px 206px
+
+  +bp($bp-papa-bear)
     background-position: center -90px 
     background-size: 280px 261px
 
@@ -34,7 +38,7 @@
   img
     display: block
 
-  +bp($bp-papa-bear)
+  +bp($bp-mama-bear)
     display: none
 
 
@@ -54,13 +58,15 @@
     color: $white
     line-height: 1
     border-bottom-left-radius: 0.5em
+    border-bottom-right-radius: 0.5em
     text-transform: uppercase
     transition: background-color 0.2s 
 
     &:hover
       background-color: $green-alt
+      color: $white
 
-  +bp($bp-papa-bear)
+  +bp($bp-mama-bear)
     display: none
 
 
@@ -68,6 +74,9 @@
 // =====================================
 
 .header__nav
+  +bp($bp-mama-bear)
+    margin-top: 6em
+
   +bp($bp-papa-bear)
     margin-top: 5em
     margin-bottom: 2.5em
@@ -85,7 +94,7 @@
   border-bottom: 1px dotted $white-alt
   transition: all 0.2s
 
-  +bp($bp-papa-bear)
+  +bp($bp-mama-bear)
     display: inline-block
     position: absolute
     top: 0
@@ -100,15 +109,24 @@
       background: $green-alt
 
 .header__contact a
-  +bp($bp-papa-bear)
+  +bp($bp-mama-bear)
     right: 0
 
 .header__phone a
   border-bottom: none
+
   span
     color: $white-alt
 
   &:hover span
     color: $white-alt
+
+  +bp($bp-mama-bear)
+    span
+      display: none
+
+  +bp($bp-papa-bear)
+    span
+      display: inline
 
 

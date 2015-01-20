@@ -3,7 +3,7 @@
   padding: 0
   list-style: none
 
-  +bp($bp-papa-bear)
+  +bp($bp-mama-bear)
     height: 2em
 
 
@@ -14,9 +14,12 @@
   margin: 0
   padding: 0
 
-  +bp($bp-papa-bear)
+  +bp($bp-mama-bear)
     position: absolute
     display: inline-block
+    width: 25%
+
+  +bp($bp-papa-bear)
     width: 15%
 
 
@@ -29,11 +32,17 @@
 
 .nav__item--portfolio
   @extend .nav__item
-  left: 15%
+  +bp($bp-mama-bear)
+    left: 25%
+  +bp($bp-papa-bear)
+    left: 15%
 
 .nav__item--tips
   @extend .nav__item
-  right: 15%
+  +bp($bp-mama-bear)
+    right: 25%
+  +bp($bp-papa-bear)
+    right: 15%
 
 .nav__item--about
   @extend .nav__item
@@ -47,21 +56,28 @@
 a.nav__link
   display: block
   padding: 0.5em
+  line-height: 1
   border-bottom: 1px dotted $white-alt
 
   &:hover
     background: rgba(255,255,255,0.1)
 
-  +bp($bp-papa-bear)
+  +bp($bp-mama-bear)
     text-transform: uppercase
     text-align: center
     letter-spacing: 1px
-    border-top: 1px dotted $white-alt
     color: $green-alt
     transition: all 0.2s
+    padding: 0.5em 0
+    border-bottom: none
 
     &:hover
       color: $white
+
+  +bp($bp-papa-bear)
+    border-top: 1px dotted $white-alt
+    border-bottom: 1px dotted $white-alt
+
 
 
 
