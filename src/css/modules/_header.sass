@@ -4,6 +4,9 @@
   color: $white-alt
 
   background-color: $brown
+  height: 3em
+  overflow: hidden
+  transition: height 0.2s
 
   a,
   a:active,
@@ -15,6 +18,7 @@
     color: $green-alt
 
   +bp($bp-mama-bear)
+    height: auto
     background-image: url('/images/logo--big.png') //280x261@1x
     background-repeat: no-repeat
     background-position: center -100px 
@@ -24,6 +28,12 @@
     background-position: center -90px 
     background-size: 280px 261px
 
+.is-open
+  height: 17em
+
+  +bp($bp-mama-bear)
+    height: auto
+
 
 // Logo/Toggle Container
 // =====================================
@@ -31,11 +41,13 @@
 .header__container
   position: relative
 
+
 // Logo
 // =====================================
 
-
 .header__logo-image
+  height: 48px
+
   +bp($bp-mama-bear)
     display: none
 
@@ -69,10 +81,13 @@
     background-color: $green
     color: $white
     line-height: 1
-    border-bottom-left-radius: 0.5em
-    border-bottom-right-radius: 0.5em
     text-transform: uppercase
-    transition: background-color 0.2s 
+    transition: background-color 0.2s
+    outline: none
+
+    .is-open &
+      border-bottom-left-radius: 0.5em
+      border-bottom-right-radius: 0.5em
 
     &:hover
       background-color: $green-alt
@@ -80,6 +95,8 @@
 
   +bp($bp-mama-bear)
     display: none
+
+
 
 
 // Nav
