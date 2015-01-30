@@ -1,9 +1,9 @@
 ---
+id: about
 layout: page
 title: "About Us"
 sidebars:
   - portfolio
-  - tips
 ---
 
 # About Compass
