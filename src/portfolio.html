@@ -1,6 +1,6 @@
 ---
-id: gallery
-layout: gallery
+id: portfolio
+layout: portfolio
 title: "Commercial and Residential Portfolio"
 ---
 
@@ -9,9 +9,11 @@ title: "Commercial and Residential Portfolio"
 <p>Offering a wide range of landscape maintenance programs for the commercial user, Compass Lawn &amp; Landscapes can tailor a program that will fulfill your needs and stay within your budget. Our experienced and uniformed crews are able to keep your property looking polished and professinal no matter what the season!</p>
 
 <div class="thumbnails">
+  {% for image in site.data.commercial %}
   <div class="thumbnail">
-    <img src="" alt="">
+    <a href="/images/photos/{{ image.file }}" class="picture" style="background-image:url('/images/photos/{{ image.file }}');"></a>
   </div>
+  {% endfor %}
 </div>
 
 
@@ -21,7 +23,9 @@ title: "Commercial and Residential Portfolio"
 <p>Our residential services encompass all landscape services and installations from weekly mowing to a major renovation or new construction. Please contact us to tailor make a plan that fits your needs and will maintain your property from season to season.</p>
 
 <div class="thumbnails">
+  {% for image in site.data.residential %}
   <div class="thumbnail">
-    <img src="" alt="">
+    <a href="/images/photos/{{ image.file }}" class="picture" style="background-image:url('/images/photos/{{ image.file }}');"></a>
   </div>
+  {% endfor %}
 </div>

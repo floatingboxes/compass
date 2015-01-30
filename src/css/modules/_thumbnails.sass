@@ -1,0 +1,29 @@
+.thumbnails
+  display: flex
+  flex-wrap: wrap
+
+.thumbnail
+  width: 47.5%
+  margin-right: 5%
+  overflow: hidden
+
+  &:nth-child(2n)
+    margin-right: 0
+
+  a
+    display: block
+    padding: 0
+    width: 100%
+    padding-top: 80% 
+    background-size: cover
+
+  +bp($bp-mama-bear)
+    width: 22%
+    margin-right: 4%
+    margin-bottom: 4%
+
+    &:nth-child(2n)
+      margin-right: 4%
+
+    &:nth-child(4n)
+      margin-right: 0
