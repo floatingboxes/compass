@@ -1,0 +1,17 @@
+---
+layout: base
+---
+<div class="lo-block">
+  <div class="lo-page">
+    <div class="lo-page__content">
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
+    <div class="lo-page__sidebar">
+      {% for sidebar in page.sidebars%}
+        {% include sidebars/{{sidebar}}.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>

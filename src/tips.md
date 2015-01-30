@@ -1,8 +1,9 @@
 ---
+id: tips
 layout: page
 title: "Tips & Tricks"
 sidebars:
-  - gallery
+  - portfolio
 ---
 
 

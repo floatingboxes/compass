@@ -2,7 +2,7 @@
 layout: page
 title: "About Us"
 sidebars:
-  - gallery
+  - portfolio
   - tips
 ---
 

@@ -1,8 +1,9 @@
 ---
+id: services
 layout: page
 title:  "Lawn & Landscaping Services"
 sidebars:
-  - gallery
+  - portfolio
   - tips
 ---
 
