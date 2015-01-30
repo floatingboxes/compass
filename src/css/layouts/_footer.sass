@@ -1,3 +1,14 @@
 .lo-footer
+  position: relative
   background: $tan
   padding: 2em
+
+  &:before
+    content: ' '
+    display: block
+    height: 0
+    width: 100%
+    position: absolute
+    top: -4px
+    left: 0
+    border-top: 1px dotted $tan
