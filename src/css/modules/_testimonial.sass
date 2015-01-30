@@ -1,22 +1,29 @@
 .testimonial
   +center(740px)
-  text-align: center
+
+  +bp($bp-mama-bear)
+    text-align: center
 
 .testimonial__header
   color: $green
   margin: 0
-  padding-bottom: 1em
   margin-bottom: 1em
-  background-image: url("/images/horizontal-break.png")
-  background-repeat: no-repeat
-  background-position: bottom center
+  
+  +bp($bp-mama-bear)
+    padding-bottom: 1em
+    background-image: url("/images/horizontal-break.png")
+    background-repeat: no-repeat
+    background-position: bottom center
+
 
 .testimonial__quote
-  text-align: center
-  font-size: 1.4em
+  font-size: 1.1em
   font-weight: 100
   line-height: 1.6em
   color: #666
 
+  +bp($bp-mama-bear)
+    font-size: 1.4em
+  
 .testimonial__attribute
   color: $tan
