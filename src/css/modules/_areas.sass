@@ -1,0 +1,41 @@
+.areas
+  +center(1000px)
+  border-top: 1px solid $tan
+  border-bottom: 1px solid $tan
+  padding: 2em 0 1.6em
+  text-align: center
+  font-size: 1.2em
+
+
+.areas__header
+  font-family: $proxima
+  font-size: 1em
+  font-weight: 600
+  line-height: 0
+  margin: 0 0 1em
+  padding: 0
+  color: $tan
+  text-transform: uppercase
+
+.areas__list
+  margin: 0
+  padding: 0
+  list-style: none
+  +center(800px)
+
+.area
+  position: relative
+  display: inline-block
+  margin: 0
+  line-height: 1.4
+
+  &:after
+    content: '•'
+    display: inline-block
+    margin: 0 0.5em
+    color: $tan
+
+  &:last-child
+    &:after
+      content: ' '
+
