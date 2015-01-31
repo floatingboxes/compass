@@ -83,7 +83,16 @@ module.exports = function(grunt) {
           authKey: 'staging-key'
         },
         src: './build/stage',
-        dest: 'html/',
+        dest: '/',
+      },
+      prod: {
+        auth: {
+          host: 'recreant.net',
+          port: 21,
+          authKey: 'production-key'
+        },
+        src: './build/prod',
+        dest: '/',
       }
     },
 
