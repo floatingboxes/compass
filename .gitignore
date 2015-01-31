@@ -21,3 +21,4 @@ node_modules
 Gemfile.lock
 src/css/styles.css
 src/css/styles.css.map
+.ftppass
