@@ -216,7 +216,5 @@ module.exports = function(grunt) {
 
   grunt.registerTask('dev', ['clean:dev', 'sass:dev', 'autoprefixer', 'jekyll:dev', 'concurrent:dev']);
   grunt.registerTask('stage', ['clean:stage', 'sass:stage', 'autoprefixer', 'jekyll:stage', 'uglify:stage', 'ftp-deploy:stage']);
-  grunt.registerTask('prod', ['clean:prod', 'sass:prod', 'autoprefixer', 'jekyll:prod', 'uglify:prod']);
-
-  grunt.registerTask('deployprod', ['prod', 'exec:deployprodtos3']);
+  grunt.registerTask('prod', ['clean:prod', 'sass:prod', 'autoprefixer', 'jekyll:prod', 'uglify:prod', 'ftp-deploy:prod']);
 };
