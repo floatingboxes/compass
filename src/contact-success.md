@@ -1,8 +1,8 @@
 ---
+title: Thank you for contacting us
 layout: page
-title: "Thank you for contacting us"
 sidebars:
-  - contact
+- contact
 ---
 
 # Thank You

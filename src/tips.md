@@ -1,11 +1,10 @@
 ---
+title: Tips & Tricks
 id: tips
 layout: page
-title: "Tips & Tricks"
 sidebars:
-  - portfolio
+- portfolio
 ---
-
 
 # Tips & Tricks
 

@@ -1,12 +1,11 @@
 ---
+title: Lawn & Landscaping Services
 id: services
 layout: page
-title:  "Lawn & Landscaping Services"
 sidebars:
-  - portfolio
-  - tips
+- portfolio
+- tips
 ---
-
 
 # Services
         
