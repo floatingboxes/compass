@@ -2,93 +2,121 @@
 <!--[if lt IE 7]>   <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>     <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>     <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>{% if page.title %}{{ page.title }} - {% endif %}Compass Lawn &amp; Landscapes, LLC</title>
-    <meta name="description" content="Compass Lawn &amp; Lanscapes provides a full range of landscape maintenance services from basic residential weekly mowing to complete property management, commercial property care, and everything in between."> 
-    <meta name="author" content="Compass Lawn &amp; Landscapes, LLC">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
 
-    <link rel="stylesheet" href="/css/styles.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
-    <link href="//cdn.rawgit.com/noelboss/featherlight/1.0.4/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles" />
-    <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}Compass Lawn &amp; Landscapes, LLC</title>
+  <meta name="description" content="Compass Lawn &amp; Lanscapes provides a full range of landscape maintenance services from basic residential weekly mowing to complete property management, commercial property care, and everything in between.">
+  <meta name="author" content="Compass Lawn &amp; Landscapes, LLC">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script type="text/javascript" src="http://use.typekit.com/dns8pfw.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body>
-    <!--[if lt IE 7]>
+  <link rel="stylesheet" href="/css/styles.css?v={{ site.time | date: '%Y%m%d%H%M%S' }}">
+  <link href="//cdn.rawgit.com/noelboss/featherlight/1.0.4/release/featherlight.min.css" type="text/css" rel="stylesheet" title="Featherlight Styles"
+  />
+  <script src="/js/vendor/modernizr-2.6.2.min.js"></script>
+
+  <script type="text/javascript" src="http://use.typekit.com/dns8pfw.js"></script>
+  <script type="text/javascript">try { Typekit.load(); } catch (e) { }</script>
+</head>
+
+<body>
+  <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    <div class="lo-block--brown">
-      <div class="header js-header">
-        <div class="header__container">
-          <div class="header__logo">
-            <a href="/" class="header__logo-link">
-              <img src="/images/logo--small.png" class="header__logo-image" alt="Compass Lawn &amp; Landscape">
-            </a>
-          </div>
-          <div class="header__toggle js-toggle"><a href="#">Menu</a></div>
+  <div class="lo-block--brown">
+    <div class="header js-header">
+      <div class="header__container">
+        <div class="header__logo">
+          <a href="/" class="header__logo-link">
+            <img src="/images/logo--small.png" class="header__logo-image" alt="Compass Lawn &amp; Landscape">
+          </a>
         </div>
-        <div class="header__nav">
-          <ul class="nav">
-            <li class="nav__item--services"><a href="/services" class="nav__link">Services</a></li>
-            <li class="nav__item--portfolio"><a href="/portfolio" class="nav__link">Portfolio</a></li>
-            <li class="nav__item--tips"><a href="/tips" class="nav__link">Tips &amp; Tricks</a></li>
-            <li class="nav__item--about"><a href="/about" class="nav__link">About</a></li>
+        <div class="header__toggle js-toggle">
+          <a href="#">Menu</a>
+        </div>
+      </div>
+      <div class="header__nav">
+        <ul class="nav">
+          <li class="nav__item--services">
+            <a href="/services" class="nav__link">Services</a>
+          </li>
+          <li class="nav__item--portfolio">
+            <a href="/portfolio" class="nav__link">Portfolio</a>
+          </li>
+          <li class="nav__item--tips">
+            <a href="/tips" class="nav__link">Tips &amp; Tricks</a>
+          </li>
+          <li class="nav__item--about">
+            <a href="/about" class="nav__link">About</a>
+          </li>
+        </ul>
+      </div>
+      <div class="header__contact">
+        <a href="/contact">Contact Us</a>
+      </div>
+      <div class="header__phone">
+        <a href="tel:1-630-642-0191">
+          <span>Phone:</span> 630-642-0191</a>
+      </div>
+    </div>
+  </div>
+
+  {{ content }}
+
+  <div class="lo-footer">
+    <div class="footers">
+      <div class="footer">
+        <h3 class="footer__header">Social Media</h3>
+        <div class="footer__content">
+          <p>Keep up to date with Compass by friending us on Facebook or following us on Twitter.</p>
+          <ul class="social">
+            <li class="social__item">
+              <a href="https://twitter.com/compasslawn">
+                <img src="/images/twitter.svg" alt="Twitter">
+              </a>
+            </li>
+            <li class="social__item">
+              <a href="https://www.facebook.com/pages/Compass-Lawn-Landscapes-LLC/151715778238756">
+                <img src="/images/facebook.svg" alt="Facebook">
+              </a>
+            </li>
           </ul>
         </div>
-        <div class="header__contact"><a href="/contact">Contact Us</a></div>
-        <div class="header__phone"><a href="tel:1-630-642-0191"><span>Phone:</span> 630-642-0191</a></div>
       </div>
-    </div>
-
-    {{ content }}
-
-    <div class="lo-footer">
-      <div class="footers">
-        <div class="footer">
-          <h3 class="footer__header">Join Our Mailing List</h3>
-          <div class="footer__content">
-            <p>Enter your email address below for occasional updates and offers from Compass.</p>
-            {% include mailchimp.html %}
-          </div>
-        </div>
-        <div class="footer">
-          <h3 class="footer__header">Social Media</h3>
-          <div class="footer__content">
-            <p>Keep up to date with Compass by friending us on Facebook or following us on Twitter.</p>
-            <ul class="social">
-              <li class="social__item"><a href="https://twitter.com/compasslawn"><img src="/images/twitter.svg" alt="Twitter"></a></li>
-              <li class="social__item"><a href="https://www.facebook.com/pages/Compass-Lawn-Landscapes-LLC/151715778238756"><img src="/images/facebook.svg" alt="Facebook"></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="footer">
-          <h3 class="footer__header">About</h3>
-          <div class="footer__content">
-            <p>©2015 Compass Lawn &amp; Landscape, LLC. All Rights Reserved.</p>
-            <p>Questions? Contact <a href="mailto:info@compasslawn.com">info@compasslawn.com</a></p>
-            <p>Site created by <a href="http://floatingboxes.com">Floatingboxes</a></p>
-          </div>
+      <div class="footer">
+        <h3 class="footer__header">About</h3>
+        <div class="footer__content">
+          <p>©2018 Compass Lawn &amp; Landscape, LLC. All Rights Reserved.</p>
+          <p>Questions? Contact
+            <a href="mailto:info@compasslawn.com">info@compasslawn.com</a>
+          </p>
+          <p>Site created by
+            <a href="http://floatingboxes.com">Floatingboxes</a>
+          </p>
         </div>
       </div>
     </div>
+  </div>
 
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="//cdn.rawgit.com/noelboss/featherlight/1.0.4/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
-    <script src="/js/plugins.js"></script>
-    <script src="/js/main.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="//cdn.rawgit.com/noelboss/featherlight/1.0.4/release/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="/js/plugins.js"></script>
+  <script src="/js/main.js"></script>
 
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='//www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-22254292-1');ga('send','pageview');
-    </script>
-  </body>
+  <script>
+    (function (b, o, i, l, e, r) {
+      b.GoogleAnalyticsObject = l; b[l] || (b[l] =
+        function () { (b[l].q = b[l].q || []).push(arguments) }); b[l].l = +new Date;
+      e = o.createElement(i); r = o.getElementsByTagName(i)[0];
+      e.src = '//www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e, r)
+    }(window, document, 'script', 'ga'));
+    ga('create', 'UA-22254292-1'); ga('send', 'pageview');
+  </script>
+</body>
+
 </html>
