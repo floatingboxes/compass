@@ -22,9 +22,9 @@ residential_portfolio:
 <p>Offering a wide range of landscape maintenance programs for the commercial user, Compass Lawn &amp; Landscapes can tailor a program that will fulfill your needs and stay within your budget. Our experienced and uniformed crews are able to keep your property looking polished and professinal no matter what the season!</p>
 
 <div class="thumbnails">
-  {% for image in site.data.commercial %}
+  {% for image in page.commercial_portfolio %}
   <div class="thumbnail">
-    <a href="/images/photos/{{ image.file }}" data-featherlight="image" class="picture" style="background-image:url('/images/photos/{{ image.file }}');"></a>
+    <a href="{{ image }}" data-featherlight="image" class="picture" style="background-image:url('{{ image }}');"></a>
   </div>
   {% endfor %}
 </div>
@@ -36,9 +36,9 @@ residential_portfolio:
 <p>Our residential services encompass all landscape services and installations from weekly mowing to a major renovation or new construction. Please contact us to tailor make a plan that fits your needs and will maintain your property from season to season.</p>
 
 <div class="thumbnails">
-  {% for image in site.data.residential %}
+  {% for image in page.residential_portfolio %}
   <div class="thumbnail">
-    <a href="/images/photos/{{ image.file }}" data-featherlight="image" class="picture" style="background-image:url('/images/photos/{{ image.file }}');"></a>
+    <a href="{{ image }}" data-featherlight="image" class="picture" style="background-image:url('{{ image }}');"></a>
   </div>
   {% endfor %}
 </div>
