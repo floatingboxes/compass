@@ -1,0 +1,8 @@
+---
+label: Portfolio
+hide_body: false
+is_partial: false
+fields:
+- type: image_gallery
+  name: commercial_portfolio
+  label: Commercial Portfolio
