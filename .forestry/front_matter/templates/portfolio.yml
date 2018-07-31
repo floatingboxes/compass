@@ -27,3 +27,5 @@ fields:
 - type: image_gallery
   name: residential_portfolio
   label: Residential Portfolio
+pages:
+- portfolio.html
