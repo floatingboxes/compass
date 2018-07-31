@@ -4,7 +4,23 @@ hide_body: false
 is_partial: false
 fields:
 - type: text
-  default: Title
+  default: ''
+  label: Title
+  name: title
+- type: text
+  name: id
+  label: ID
+- type: select
+  config:
+    source:
+      type: simple
+    options:
+    - base
+    - page
+    - portfolio
+  hidden: true
+  label: Layout
+  name: layout
 - type: image_gallery
   name: commercial_portfolio
   label: Commercial Portfolio
