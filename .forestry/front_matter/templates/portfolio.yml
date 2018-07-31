@@ -6,5 +6,8 @@ fields:
 - type: image_gallery
   name: commercial_portfolio
   label: Commercial Portfolio
+- type: image_gallery
+  name: residential_portfolio
+  label: Residential Portfolio
 pages:
 - _uploads/portfolio-image.md
