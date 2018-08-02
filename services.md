@@ -13,7 +13,7 @@ Full range of landscape maintenance services from basic residential weekly mowin
 
 The landscape maintenance services Compass Lawn & Landscapes will provide:
 
-* Weekly mowing
+* Weekly Mowing
 * Fertilization and Weed Control
 * Mulching
 * Bed Cultivating and Spade Edging
