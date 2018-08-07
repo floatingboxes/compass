@@ -8,7 +8,7 @@ sidebars:
 ---
 # About Compass
 
-Compass Lawn & Landscape, LLC, was established as a family firm with a focus on customer service and creativity. Compass has quickly established itself as a leader in quality, value, and responsiveness to our clients and their needs.
+Compass Lawn and Landscape, LLC, was established as a family firm with a focus on customer service and creativity. Compass has quickly established itself as a leader in quality, value, and responsiveness to our clients and their needs.
 
 ## Company History
 
