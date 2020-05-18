@@ -31,7 +31,7 @@ Additionally Compass Lawn & Landscapes can offer the following services:
 * Patio Furniture selection and setup.
 * Season Planter Rotation
 * Christmas Lights
-* Snow Removal , both Commercial and Residential
+* Snow Removal, both Commercial and Residential
 
 **Payment & Pricing for Services**
 
