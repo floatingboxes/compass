@@ -1,7 +1,6 @@
 ---
 label: Portfolio
 hide_body: false
-is_partial: false
 fields:
 - type: text
   default: ''
@@ -28,4 +27,6 @@ fields:
   name: residential_portfolio
   label: Residential Portfolio
 pages:
+- "./payment-pricing.md"
+- payment-pricing.md
 - portfolio.html
