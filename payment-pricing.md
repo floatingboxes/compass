@@ -4,7 +4,6 @@ id: page
 layout: ''
 commercial_portfolio: []
 residential_portfolio: []
-published: false
 
 ---
 Compass Lawn & Landscapes offers multiple different services to our customers. To get pricing information please email us at compasslawn@gmail.com or call us at 630-642-0191.
