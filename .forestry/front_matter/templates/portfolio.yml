@@ -28,5 +28,4 @@ fields:
   label: Residential Portfolio
 pages:
 - "./payment-pricing.md"
-- payment-pricing.md
 - portfolio.html
