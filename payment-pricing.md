@@ -1,6 +1,6 @@
 ---
 title: Payment & Pricing
-id: ''
+id: page
 layout: ''
 commercial_portfolio: []
 residential_portfolio: []
