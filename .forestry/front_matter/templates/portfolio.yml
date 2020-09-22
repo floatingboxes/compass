@@ -27,5 +27,4 @@ fields:
   name: residential_portfolio
   label: Residential Portfolio
 pages:
-- "./payment-pricing.md"
 - portfolio.html
